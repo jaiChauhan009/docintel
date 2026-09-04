@@ -1,0 +1,23 @@
+FIRST MERIDIAN BANK
+Monthly Account Statement
+
+Account Holder: Jordan A. Rivera
+Account Number: 000123456789
+Bank: First Meridian Bank
+Statement Period: 2026-07-01
+To: 2026-07-31
+
+Opening Balance: 5230.44
+Closing Balance: 4788.19
+
+Transaction History
+2026-07-03  Payroll Deposit ACME       +3200.00
+2026-07-05  Rent Payment               -1850.00
+2026-07-09  Grocery Store              -142.63
+2026-07-14  Electric Utility           -96.40
+2026-07-18  Transfer to Savings        -500.00
+2026-07-22  Coffee Shop                -18.75
+2026-07-27  Interest Paid              +3.53
+2026-07-29  Streaming Service          -15.99
+
+Available Balance: 4788.19

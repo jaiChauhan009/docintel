@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "DejaVu Serif", "Times New Roman", serif; font-size: 10.5px; color: #111; line-height: 1.45; }
+  .head { display: flex; justify-content: space-between; border-bottom: 3px double #000; padding-bottom: 8px; }
+  .brand { font-size: 20px; font-weight: bold; letter-spacing: 1px; }
+  .mono { font-family: "DejaVu Sans Mono", monospace; }
+  h2 { font-size: 12px; margin: 14px 0 4px; border-bottom: 1px solid #000; text-transform: uppercase; letter-spacing: 1px; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td { border: 1px solid #444; padding: 3px 5px; vertical-align: top; }
+  th { background: #ddd; }
+  td.n, th.n { text-align: right; white-space: nowrap; }
+  .cols { display: flex; gap: 18px; }
+  .cols > div { flex: 1; }
+  .small { font-size: 9px; color: #333; }
+  p { margin: 5px 0; text-align: justify; }
+  .totalbox { width: 46%; margin-left: auto; }
+</style>
+</head>
+<body>
+
+<div class="head">
+  <div>
+    <div class="brand">HELIOS INDUSTRIAL SUPPLY CO.</div>
+    <div class="small">Helios Industrial Supply Co., LLC &nbsp;|&nbsp; 4400 Cavendish Industrial Parkway, Building D, Suite 210, Cincinnati, OH 45242, USA<br>
+    VAT/Tax ID: US-31-8842190 &nbsp;|&nbsp; DUNS: 07-482-9915 &nbsp;|&nbsp; Phone: +1 (513) 555-0148 &nbsp;|&nbsp; accounts@heliosindustrial.example</div>
+  </div>
+  <div class="mono" style="text-align:right">
+    <div style="font-size:15px;font-weight:bold">COMMERCIAL INVOICE</div>
+    <div>Invoice Number: HIS-INV-2026-0098447-R2</div>
+    <div>Invoice Date: 2026-08-27</div>
+    <div>Due Date: 2026-10-11 (Net 45)</div>
+    <div>Purchase Order: PO-CONTOSO-5583-B</div>
+    <div>Customer No.: CUST-004821</div>
+    <div>Currency: USD</div>
+  </div>
+</div>
+
+<div class="cols" style="margin-top:8px">
+  <div>
+    <h2>Bill To</h2>
+    Contoso Global Manufacturing Ltd.<br>
+    Attn: Accounts Payable Dept. (Ref: Priya Nadkarni)<br>
+    1200 Industrial Loop Road, Gate 7<br>
+    Tacoma, WA 98421, USA<br>
+    Tax ID: US-91-2234117
+  </div>
+  <div>
+    <h2>Ship To</h2>
+    Contoso Global Manufacturing Ltd. &ndash; Plant 3 Receiving<br>
+    2255 Harborview Terminal Access Rd, Dock B4<br>
+    Tacoma, WA 98421, USA<br>
+    Incoterms: DAP (Delivered At Place), Tacoma<br>
+    Delivery Note: DN-2026-44120 &nbsp; Carrier: Meridian Freight Lines
+  </div>
+</div>
+
+<h2>Line Items</h2>
+<table>
+  <tr>
+    <th style="width:6%">#</th><th style="width:13%">SKU</th><th>Description</th>
+    <th class="n" style="width:9%">Qty</th><th class="n" style="width:7%">UoM</th>
+    <th class="n" style="width:12%">Unit Price</th><th class="n" style="width:8%">Disc %</th>
+    <th class="n" style="width:9%">Tax %</th><th class="n" style="width:13%">Amount</th>
+  </tr>
+  <tr><td>1</td><td>HX-BRG-6204</td><td>Precision sealed ball bearing, 20mm bore, ABEC-5, corrosion-resistant stainless race, packed 50/box</td><td class="n">40</td><td class="n">BOX</td><td class="n">86.40</td><td class="n">5.0</td><td class="n">6.5</td><td class="n">3283.20</td></tr>
+  <tr><td>2</td><td>HX-HYD-H12</td><td>Hydraulic hose assembly, 1/2" ID, 4000 PSI working pressure, crimped JIC-37 fittings both ends, 1.8m length</td><td class="n">120</td><td class="n">EA</td><td class="n">31.75</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">3810.00</td></tr>
+  <tr><td>3</td><td>HX-FLT-AR9</td><td>Inline air filter/regulator, 3/4" NPT, 0.01 micron coalescing element, auto-drain bowl, 20 bar max</td><td class="n">18</td><td class="n">EA</td><td class="n">142.00</td><td class="n">2.5</td><td class="n">6.5</td><td class="n">2491.65</td></tr>
+  <tr><td>4</td><td>HX-VLV-BR2</td><td>Full-port brass ball valve, 1" NPT, PTFE seat, lockable lever handle, WOG 600</td><td class="n">75</td><td class="n">EA</td><td class="n">27.90</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">2092.50</td></tr>
+  <tr><td>5</td><td>HX-MTR-3PH</td><td>Three-phase TEFC induction motor, 5 HP, 230/460V, 1750 RPM, NEMA 184T frame, IP55, Class F insulation</td><td class="n">6</td><td class="n">EA</td><td class="n">612.00</td><td class="n">7.5</td><td class="n">6.5</td><td class="n">3396.60</td></tr>
+  <tr><td>6</td><td>HX-CBL-12G</td><td>THHN/THWN-2 copper building wire, 12 AWG, 600V, black, 500ft spool</td><td class="n">30</td><td class="n">SPL</td><td class="n">168.25</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">5047.50</td></tr>
+  <tr><td>7</td><td>HX-PLC-S71</td><td>Compact PLC CPU module, 24 DI / 16 DO relay, 100KB program memory, Ethernet/IP + Modbus TCP</td><td class="n">4</td><td class="n">EA</td><td class="n">845.00</td><td class="n">10.0</td><td class="n">6.5</td><td class="n">3042.00</td></tr>
+  <tr><td>8</td><td>HX-SNS-PRX</td><td>Inductive proximity sensor, M18, 8mm sensing, PNP NO, IP67, 2m PUR cable</td><td class="n">90</td><td class="n">EA</td><td class="n">19.40</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">1746.00</td></tr>
+  <tr><td>9</td><td>HX-LUB-EP2</td><td>Extreme-pressure lithium-complex grease, NLGI 2, 400g cartridge, case of 10</td><td class="n">22</td><td class="n">CS</td><td class="n">58.75</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">1292.50</td></tr>
+  <tr><td>10</td><td>HX-BLT-M10</td><td>Hex head cap screw, M10 x 40, A2-70 stainless, DIN 933, bag of 100</td><td class="n">65</td><td class="n">BAG</td><td class="n">14.20</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">923.00</td></tr>
+  <tr><td>11</td><td>HX-GSK-KIT</td><td>Universal gasket material kit, compressed non-asbestos fiber, 5 sheets assorted thickness</td><td class="n">12</td><td class="n">KIT</td><td class="n">96.00</td><td class="n">5.0</td><td class="n">6.5</td><td class="n">1094.40</td></tr>
+  <tr><td>12</td><td>HX-CTR-VFD</td><td>Variable frequency drive, 7.5 HP, 460V 3-phase, integrated EMC filter, keypad, dynamic braking transistor</td><td class="n">5</td><td class="n">EA</td><td class="n">1180.00</td><td class="n">12.0</td><td class="n">6.5</td><td class="n">5192.00</td></tr>
+  <tr><td>13</td><td>HX-PPE-GLV</td><td>Cut-resistant work gloves, ANSI A4, nitrile-coated palm, size L, 12 pairs/pack</td><td class="n">40</td><td class="n">PK</td><td class="n">33.60</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">1344.00</td></tr>
+  <tr><td>14</td><td>HX-TAP-SS1</td><td>Stainless steel banding strap, 3/4" x 0.030", Type 201, 100ft coil</td><td class="n">16</td><td class="n">COI</td><td class="n">71.10</td><td class="n">0.0</td><td class="n">6.5</td><td class="n">1137.60</td></tr>
+  <tr><td>15</td><td>HX-ENC-24</td><td>Wall-mount enclosure, 24x20x8", carbon steel, NEMA 12, gray powder coat, hinged door</td><td class="n">9</td><td class="n">EA</td><td class="n">198.50</td><td class="n">3.0</td><td class="n">6.5</td><td class="n">1733.90</td></tr>
+  <tr><td>16</td><td>HX-FRT-EXP</td><td>Expedited freight surcharge &amp; palletization (18 pallets, shrink-wrapped, block-stacked)</td><td class="n">1</td><td class="n">LOT</td><td class="n">1240.00</td><td class="n">0.0</td><td class="n">0.0</td><td class="n">1240.00</td></tr>
+</table>
+
+<div class="cols">
+  <div class="small">
+    <h2>Tax Summary</h2>
+    <table>
+      <tr><th>Rate</th><th class="n">Taxable Base</th><th class="n">Tax Amount</th></tr>
+      <tr><td>6.5% Sales Tax (WA / Pierce County)</td><td class="n">39160.30</td><td class="n">2545.42</td></tr>
+      <tr><td>0.0% (freight, non-taxable)</td><td class="n">1240.00</td><td class="n">0.00</td></tr>
+      <tr><td><b>Total Tax</b></td><td class="n"></td><td class="n"><b>2545.42</b></td></tr>
+    </table>
+  </div>
+  <div>
+    <h2>Amounts Due</h2>
+    <table class="totalbox mono">
+      <tr><td>Gross line total</td><td class="n">41859.55</td></tr>
+      <tr><td>Total discounts</td><td class="n">-1459.25</td></tr>
+      <tr><td>Subtotal (net of discount)</td><td class="n">40400.30</td></tr>
+      <tr><td>Total Tax</td><td class="n">2545.42</td></tr>
+      <tr><td>Freight &amp; handling</td><td class="n">1240.00</td></tr>
+      <tr><td>Early-payment credit (ref CR-0091)</td><td class="n">-118.44</td></tr>
+      <tr><td><b>TOTAL DUE (USD)</b></td><td class="n"><b>44067.28</b></td></tr>
+      <tr><td>Amount Paid</td><td class="n">0.00</td></tr>
+      <tr><td><b>Balance Due</b></td><td class="n"><b>44067.28</b></td></tr>
+    </table>
+  </div>
+</div>
+
+<h2>Remittance &amp; Bank Details</h2>
+<div class="small mono">
+Make checks payable to: Helios Industrial Supply Co., LLC &nbsp;|&nbsp; Remit to: PO Box 74417, Cincinnati, OH 45274-0417<br>
+ACH/Wire: Fifth Third Bank, Cincinnati OH &nbsp; Routing (ABA): 042000314 &nbsp; Account: 7•••••2081 &nbsp; SWIFT: FTBCUS3C &nbsp; Reference: HIS-INV-2026-0098447-R2<br>
+Accepted cards: Visa / Mastercard / Amex (2.9% convenience fee applies). Payment portal: pay.heliosindustrial.example/contoso
+</div>
+
+<h2>Terms, Conditions &amp; Notes</h2>
+<p>1. <b>Payment terms.</b> Payment is due net forty-five (45) calendar days from the invoice date shown above. A late-payment service charge of one and one-half percent (1.5%) per month, or the maximum rate permitted by applicable law, whichever is lower, will be assessed on any past-due balance beginning on the first day after the due date and compounding monthly until the outstanding amount, together with all accrued charges, is paid in full. The Buyer shall additionally be responsible for all reasonable costs of collection, including attorneys' fees and court costs.</p>
+<p>2. <b>Title and risk of loss.</b> Notwithstanding the delivery term (DAP Tacoma), title to the goods shall not pass to the Buyer until the Seller has received payment in full of all sums due under this invoice and any other invoice then outstanding between the parties. Risk of loss passes to the Buyer upon delivery to the named place in accordance with Incoterms 2020. Any claim for shortage, damage in transit, or non-conformity must be made in writing within seven (7) business days of receipt, failing which the goods shall be deemed accepted.</p>
+<p>3. <b>Returns.</b> No goods may be returned without a prior written Return Merchandise Authorization (RMA). Approved returns of stock items are subject to a restocking charge of twenty percent (20%) plus return freight. Special-order items, cut wire and hose, calibrated instruments, and electrical components whose packaging has been opened are non-returnable. Refunds, where due, are issued within thirty (30) days of the Seller's inspection of the returned goods.</p>
+<p>4. <b>Warranty.</b> The Seller warrants that the goods will, at the time of delivery, conform to the manufacturer's published specifications and be free from defects in material and workmanship for a period of twelve (12) months from the date of delivery, or the manufacturer's warranty period if shorter. THE FOREGOING WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. The Seller's entire liability and the Buyer's exclusive remedy shall be limited, at the Seller's option, to repair, replacement, or credit of the non-conforming goods, and in no event shall the Seller's aggregate liability exceed the amount actually paid for the specific goods giving rise to the claim.</p>
+<p>5. <b>Taxes.</b> Prices are exclusive of all sales, use, excise, value-added and similar taxes. Where the Seller is required to collect such taxes, they are itemized above; where the Buyer claims exemption, a valid exemption certificate must be on file with the Seller before the invoice date, otherwise tax will be charged and is non-refundable by the Seller.</p>
+<p>6. <b>Force majeure.</b> The Seller shall not be liable for any delay or failure in performance caused by events beyond its reasonable control, including but not limited to acts of God, labor disputes, supplier failure, transportation delays, epidemic, or governmental action.</p>
+<p>7. <b>Governing law.</b> This transaction is governed by the laws of the State of Ohio, without regard to its conflict-of-laws principles, and the parties consent to the exclusive jurisdiction of the state and federal courts located in Hamilton County, Ohio.</p>
+<p class="small">Notes: Partial shipment 2 of 2 against PO-CONTOSO-5583-B. Items 5 and 12 drop-shipped from manufacturer (lead time already elapsed). Certificate of Conformance and mill test reports for items 1, 6, and 14 emailed separately to quality@contoso.example. This revision R2 supersedes HIS-INV-2026-0098447 and HIS-INV-2026-0098447-R1; the only change in R2 is the application of early-payment credit CR-0091. Questions: accounts@heliosindustrial.example, quoting the invoice number above.</p>
+
+</body>
+</html>

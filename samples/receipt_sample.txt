@@ -1,0 +1,24 @@
+Blue Bottle Coffee
+Merchant: Blue Bottle Coffee #17
+456 Valencia St, San Francisco CA
+Cashier: Dana
+
+RECEIPT
+
+Date: 2026-08-22
+Order: 100482
+
+1x Cortado            4.75
+1x Almond Croissant   4.50
+1x Drip Coffee (L)    3.95
+
+Subtotal: 13.20
+Tax: 1.16
+Total: 14.36
+Currency: USD
+
+Payment Method: Visa card ****1234
+Auth Code: 004821
+Change Due: 0.00
+
+Thank you for shopping with us!
